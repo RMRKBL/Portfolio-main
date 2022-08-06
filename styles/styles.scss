@@ -393,16 +393,13 @@ section {
     .hover-items {
       width: 20%;
       height: 0;
-      background-color: var(--color-secondary);
       position: absolute;
       left: 38%;
       top: 50%;
-      border-radius: 15px;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      opacity: 0;
       transform: scale(0);
       transition: var(--transition);
       &:hover {

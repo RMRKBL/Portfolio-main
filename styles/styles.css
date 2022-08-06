@@ -412,16 +412,13 @@ section {
 .portfolios .portfolio-item .hover-items {
   width: 20%;
   height: 0;
-  background-color: var(--color-secondary);
   position: absolute;
   left: 38%;
   top: 50%;
-  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  opacity: 0;
   transform: scale(0);
   transition: var(--transition);
 }
@@ -692,29 +689,16 @@ section {
 
 @media screen and (max-width: 970px) {
   header {
-    padding: 0;
-  }
-  header .right-header {
-    padding: 0 !important;
+    padding: 1rem;
   }
   .header-content {
     grid-template-columns: 1fr;
-    padding-bottom: 6rem;
-  }
-  .left-header .h-shape {
-    display: none;
-  }
-  .right-header {
-    grid-row: 1;
-    width: 90%;
-    margin: 0 auto;
-  }
-  .right-header .name {
-    font-size: 2.5rem !important;
-  }
-  .header-content .left-header {
+    padding-bottom: 1.5rem;
     margin: 0 auto;
     width: 90%;
+  }
+  .name {
+    font-size: 2.5rem;
   }
   .about-container {
     grid-template-columns: 1fr;
