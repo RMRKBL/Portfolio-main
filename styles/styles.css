@@ -8,7 +8,7 @@
 
 :root {
   --color-primary: #081a28;
-  --color-secondary: #6670ad;
+  --color-secondary: #bb9af7;
   --color-white: #fff;
   --color-black: #000;
   --color-grey0: #f8f8f8f8;
@@ -166,6 +166,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+  height: 70%;
 }
 
 .about-container .right-about .about-item {
